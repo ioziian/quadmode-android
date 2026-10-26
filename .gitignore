@@ -1,18 +1,30 @@
+# Build & Gradle caches
 *.iml
 .gradle
 .kotlin
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
 /build
+/app/build
 /captures
 .externalNativeBuild
 .cxx
+.build-outputs/
+
+# IDE & Editor files
+/.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets & Local Properties
+/local.properties
 local.properties
 .env
 debug.keystore
+debug.keystore.base64
+
+# Binary Artifacts
+*.apk
+*.aab
+
+# Platform and Temporary Directories
+.aistudio/
+public/
