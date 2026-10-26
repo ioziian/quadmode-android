@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuadMode</string>
+    <string name="app_slogan">4 режими. 1 жест.</string>
+    <string name="mode_outdoor">Вуличний</string>
+    <string name="mode_outdoor_subtitle">Максимальна чутність</string>
+    <string name="mode_day">Денний</string>
+    <string name="mode_day_subtitle">Персональний баланс</string>
+    <string name="mode_silent">Беззвучний</string>
+    <string name="mode_silent_subtitle">Вимкнено всі звуки</string>
+    <string name="mode_night">Нічний</string>
+    <string name="mode_night_subtitle">Спокій та режим сну</string>
+    
+    <string name="stream_ring">Дзвінки та виклики</string>
+    <string name="stream_notification">Сповіщення</string>
+    <string name="stream_music">Медіа та музика</string>
+    
+    <string name="test_sound">Тест</string>
+    <string name="audio_booster_title">Audio Booster (Надгучність)</string>
+    <string name="audio_booster_desc">Програмне підсилення звуку понад стандартні 100%</string>
+    <string name="system_modes_title">Системні перемикачі режиму</string>
+    <string name="schedule_title">Розклад та дні спрацювання</string>
+    
+    <string name="notification_toggle_title">Швидке керування у сповіщеннях</string>
+    <string name="notification_toggle_desc">Показувати 4 кнопки швидкого перемикання у шторці</string>
+    
+    <string name="dnd_permission_title">Доступ до режиму «Не турбувати»</string>
+    <string name="dnd_permission_desc">Для надійного переведення дзвінків у беззвучний стан Android потребує дозволу на зміну звукових профілів.</string>
+    <string name="grant_permission">Надати дозвіл</string>
+</resources>

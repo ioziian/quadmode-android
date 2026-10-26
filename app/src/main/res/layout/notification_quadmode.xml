@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@android:color/transparent">
+
+    <!-- Header line: Mode info -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:id="@+id/notif_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="QuadMode: Вуличний"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/notif_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100% + Booster"
+            android:textColor="#B79CFF"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <!-- 4 Icon Buttons Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <!-- Button 0: Outdoor -->
+        <LinearLayout
+            android:id="@+id/btn_notif_outdoor"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:background="@drawable/bg_notif_btn_normal"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:id="@+id/icon_notif_outdoor"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/ic_notif_outdoor"
+                android:contentDescription="Вулиця" />
+
+            <TextView
+                android:id="@+id/text_notif_outdoor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="Вулиця"
+                android:textColor="#E0E0E0"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Button 1: Day -->
+        <LinearLayout
+            android:id="@+id/btn_notif_day"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:background="@drawable/bg_notif_btn_normal"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:id="@+id/icon_notif_day"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/ic_notif_day"
+                android:contentDescription="День" />
+
+            <TextView
+                android:id="@+id/text_notif_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="День"
+                android:textColor="#E0E0E0"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Button 2: Silent -->
+        <LinearLayout
+            android:id="@+id/btn_notif_silent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:background="@drawable/bg_notif_btn_normal"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:id="@+id/icon_notif_silent"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/ic_notif_silent"
+                android:contentDescription="Беззвучно" />
+
+            <TextView
+                android:id="@+id/text_notif_silent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="Тиша"
+                android:textColor="#E0E0E0"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Button 3: Night -->
+        <LinearLayout
+            android:id="@+id/btn_notif_night"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="4dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:background="@drawable/bg_notif_btn_normal"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:id="@+id/icon_notif_night"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/ic_notif_night"
+                android:contentDescription="Ніч" />
+
+            <TextView
+                android:id="@+id/text_notif_night"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="Ніч"
+                android:textColor="#E0E0E0"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

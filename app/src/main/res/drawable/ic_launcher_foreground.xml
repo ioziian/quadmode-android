@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Recessed vertical slider slot -->
+    <path
+        android:fillColor="#0D0E12"
+        android:pathData="M51,31 C51,29.3 52.3,28 54,28 C55.7,28 57,29.3 57,31 L57,77 C57,78.7 55.7,80 54,80 C52.3,80 51,78.7 51,77 Z" />
+    <path
+        android:strokeColor="#2F323D"
+        android:strokeWidth="1"
+        android:pathData="M51,31 C51,29.3 52.3,28 54,28 C55.7,28 57,29.3 57,31 L57,77 C57,78.7 55.7,80 54,80 C52.3,80 51,78.7 51,77 Z" />
+
+    <!-- 4 Position markers (horizontal calibrated ticks) -->
+    <!-- Position 0 (top): Outdoor -->
+    <path
+        android:fillColor="#76679B"
+        android:pathData="M37,33 h9 v2.5 h-9 z M62,33 h9 v2.5 h-9 z" />
+
+    <!-- Position 1: Day (active locked position under knob) -->
+    <path
+        android:fillColor="#9F88D9"
+        android:pathData="M37,46 h9 v2.5 h-9 z M62,46 h9 v2.5 h-9 z" />
+
+    <!-- Position 2: Silent -->
+    <path
+        android:fillColor="#76679B"
+        android:pathData="M37,59 h9 v2.5 h-9 z M62,59 h9 v2.5 h-9 z" />
+
+    <!-- Position 3 (bottom): Night -->
+    <path
+        android:fillColor="#76679B"
+        android:pathData="M37,72 h9 v2.5 h-9 z M62,72 h9 v2.5 h-9 z" />
+
+    <!-- Knob Soft Neon Halo Glow (centered at x=54, y=47.2) -->
+    <path
+        android:fillColor="#3DB79CFF"
+        android:pathData="M40,38 h28 a9,9 0 0,1 9,9 v0.5 a9,9 0 0,1 -9,9 h-28 a9,9 0 0,1 -9,-9 v-0.5 a9,9 0 0,1 9,-9 z" />
+
+    <!-- Studio Slider Knob Body (Digital Lavender #B79CFF) -->
+    <path
+        android:fillColor="#B79CFF"
+        android:pathData="M43,40 h22 a7,7 0 0,1 7,7 v0.5 a7,7 0 0,1 -7,7 h-22 a7,7 0 0,1 -7,-7 v-0.5 a7,7 0 0,1 7,-7 z" />
+
+    <!-- Top Bevel Highlight for 3D metallic feel -->
+    <path
+        android:fillColor="#D9CCFF"
+        android:pathData="M43,40 h22 a7,7 0 0,1 7,7 v-1.5 a7,7 0 0,0 -7,-7 h-22 a7,7 0 0,0 -7,7 v1.5 a7,7 0 0,1 7,-7 z" />
+
+    <!-- Tactile Center Indicator Rib (High-contrast pure white) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,46.5 h8 a1,1 0 0,1 1,1 v0 a1,1 0 0,1 -1,1 h-8 a1,1 0 0,1 -1,-1 v0 a1,1 0 0,1 1,-1 z" />
+</vector>

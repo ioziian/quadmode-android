@@ -1,0 +1,6 @@
+{
+  "name": "QuadMode",
+  "description": "4 режими. 1 жест. Швидкий перемикач життєвих сценаріїв та звукових профілів смартфона.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
